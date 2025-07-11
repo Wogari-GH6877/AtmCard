@@ -1,0 +1,80 @@
+*{
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:cyan;
+
+}
+.container{
+
+    position: relative;
+    background-color: darkmagenta;
+    max-width:390px ;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+
+}
+.logo .CBE_logo{
+    width:60px;
+    height:60px;
+    color:darkmagenta;
+    
+}
+h6{
+
+    text-align: center;
+    padding-top: 5px;
+    color:white;
+}
+.upper-part{
+    display: flex;
+    
+}
+.middle-part{
+    display: flex;
+    justify-content: space-between;
+}
+.chip img{
+ width: 50px;
+ height: 40px;
+}
+
+.voice img{
+    width: 35px;
+    height: 35px;
+}
+.codeNumber{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.visa img{
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+}
+.heading{
+    color:gold
+}
+
+.heading h4{
+    font-size: 13px;
+    font-weight: 300;
+}
+.classic{
+margin-bottom: 10px;
+color: gold;}
